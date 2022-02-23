@@ -15,11 +15,11 @@ D:/Unity/GitHub/HelloUnity/HelloUnity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53065
+57327
 Successfully changed project path to: D:/Unity/GitHub/HelloUnity/HelloUnity
 D:/Unity/GitHub/HelloUnity/HelloUnity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001316 seconds.
+Registered in 0.001722 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 24.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.464 seconds
+- Completed reload, in  0.481 seconds
 Domain Reload Profiling:
-	ReloadAssembly (464ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (481ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (357ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (365ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (121ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (128ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (135ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (24ms)
 				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (64ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002727 seconds.
+Registered in 0.003198 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
+- Completed reload, in  0.822 seconds
 Domain Reload Profiling:
-	ReloadAssembly (803ms)
+	ReloadAssembly (822ms)
 		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (629ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
+			SetupTypeCache (228ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (157ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (162ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -117,7 +117,7 @@ System memory in use before: 70.1 MB.
 System memory in use after: 70.2 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1934.
-Total: 2.274600 ms (FindLiveObjects: 0.110800 ms CreateObjectMapping: 0.042100 ms MarkObjects: 2.066300 ms  DeleteObjects: 0.054800 ms)
+Total: 2.459100 ms (FindLiveObjects: 0.120400 ms CreateObjectMapping: 0.049500 ms MarkObjects: 2.221900 ms  DeleteObjects: 0.066300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,57 +131,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Level1.unity
-  artifactKey: Guid(db05813fbccb61a4ebdef9604e552edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level1.unity using Guid(db05813fbccb61a4ebdef9604e552edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b009bc551e300a1aa9c4c409c8202d') in 0.012592 seconds 
-  Import took 0.014462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 280.092135 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(80b1ea055ac1516459cf5caae4e6e9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(80b1ea055ac1516459cf5caae4e6e9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be86d54492ea0efdac938c63041740d7') in 0.007935 seconds 
-  Import took 0.010461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1929.744590 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95303dd0fccb1946c9fe949a28f72d24') in 0.007444 seconds 
-  Import took 0.010034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.622959 seconds.
   path: Assets/Scenes/Level1.unity
   artifactKey: Guid(db05813fbccb61a4ebdef9604e552edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(db05813fbccb61a4ebdef9604e552edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad20b05eb1dac9940b6be48f9f27f8f6') in 0.003067 seconds 
-  Import took 0.005127 seconds .
+Start importing Assets/Scenes/Level1.unity using Guid(db05813fbccb61a4ebdef9604e552edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc474528c45afe27e218789382b2455c') in 0.010692 seconds 
+  Import took 0.012711 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 493.779044 seconds.
-  path: Assets/Scenes/Level1 1.unity
-  artifactKey: Guid(096f3bd1b6e1fed4cba7566c66da01ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1 1.unity using Guid(096f3bd1b6e1fed4cba7566c66da01ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf83344d67518d1c54b8d39e1f2c7bf') in 0.007130 seconds 
-  Import took 0.009497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 262.485599 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(db05813fbccb61a4ebdef9604e552edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(db05813fbccb61a4ebdef9604e552edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687aced3903157eb4d229a7049fc585e') in 0.003021 seconds 
-  Import took 0.005087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 541.919322 seconds.
-  path: Assets/minions.jpg
-  artifactKey: Guid(3e668a320a2cec145b9c320b17162734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/minions.jpg using Guid(3e668a320a2cec145b9c320b17162734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602c09e506e457404d2ddc84c16d0067') in 0.049109 seconds 
-  Import took 0.051613 seconds .
+  Time since last request: 652.470805 seconds.
+  path: Assets/minionsZone.jpg
+  artifactKey: Guid(3099b6acb8530174ca635d32e0a17593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/minionsZone.jpg using Guid(3099b6acb8530174ca635d32e0a17593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cffba0f9ca238f6df2953808c60cfe') in 0.054924 seconds 
+  Import took 0.057230 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
